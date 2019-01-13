@@ -1,3 +1,13 @@
+1. download models: 
+`bash download.bash`
+2. install cupy: 
+`pip install cupy`
+3. run: 
+`python run.py --model default --first ./images/first.png --second ./images/second.png --out ./out.flo`
+
+
+---------------
+
 # pytorch-pwc
 This is a personal reimplementation of PWC-Net [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href="https://github.com/NVlabs/PWC-Net#license">licensing terms</a> of the authors. Should you be making use of this particular implementation, please acknowledge it appropriately.
 
