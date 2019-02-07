@@ -1,8 +1,8 @@
-1. download models: 
+1. download models:
 `bash download.bash`
-2. install cupy: 
-`pip install cupy`
-3. run: 
+2. install cupy:
+`pip install cupy`, `pip install cupy-cuda100`
+3. run:
 `python run.py --model default --first ./images/first.png --second ./images/second.png --out ./out.flo`
 
 
