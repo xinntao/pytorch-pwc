@@ -643,7 +643,7 @@ if __name__ == '__main__':
     # img_ref = cv2.resize(
     #     img_ref, (w * 4, h * 4), interpolation=cv2.INTER_CUBIC)
 
-    img_paths = sorted(glob.glob(os.path.join(data_root)))
+    img_paths = sorted(glob.glob(os.path.join(data_root, '*')))
     for idx, img_path in enumerate(img_paths):
         basename = os.path.splitext(os.path.basename(img_path))[0]
         print(idx, basename)
